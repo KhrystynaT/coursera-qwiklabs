@@ -1,0 +1,3 @@
+ls
+sudo chmod 777 ~/start_date_report.py
+nano ~/start_date_report.py
