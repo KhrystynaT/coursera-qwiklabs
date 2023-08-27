@@ -1,0 +1,13 @@
+--->Download 'matplotlib' module
+
+sudo apt install python3-pip -y
+pip3 install matplotlib
+
+->rename data csv file
+mv data.bak data.csv
+
+
+---> missing column error:
+sudo chmod 777 ~/data.csv
+nano ~/data.csv
+-> write a "company" between two comas. 
