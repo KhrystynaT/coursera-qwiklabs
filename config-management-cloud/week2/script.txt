@@ -63,3 +63,21 @@ cd templates
 
 open into.erb
 + Network Interfaces: <%= @interfaces %>
+
+
+
+////
+go to puppet
+sudo mkdir -p /etc/puppet/code/environments/production/modules/reboot/manifests
+cd /etc/puppet/code/environments/production/modules/reboot/manifests
+sudo touch init.pp
+sudo nano init.pp
+
+-->
+node default {
+   class { 'packages': }
+   class { 'machine_info': }
+   class { 'reboot': }
+}
+-->
+linux instance sudo puppet agent -v --test
