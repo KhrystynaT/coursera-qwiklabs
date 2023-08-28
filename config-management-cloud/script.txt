@@ -1,0 +1,8 @@
+export PATH=/bin:/usr/bin
+cd /etc/puppet/code/environments/production/modules/profile/manifests
+sudo nano init.pp
+
+-->
+content => "PATH=\$PATH:/java/bin\n" 
+--->
+sudo puppet agent -v --test
