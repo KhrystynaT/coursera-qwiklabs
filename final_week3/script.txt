@@ -1,0 +1,17 @@
+Automatically Generate a PDF and send it by Email
+1. connect
+2.  sudo curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+
+3.  sudo sed -i s/deb.debian.org/archive.debian.org/g /etc/apt/sources.list
+
+4.  sudo sed -i 's|security.debian.org|archive.debian.org/debian-security/|g' /etc/apt/sources.list 
+
+5.  sudo sed -i '/stretch-updates/d' /etc/apt/sources.list 
+
+6.  sudo sed -i s/deb.debian.org/archive.debian.org/g /etc/apt/sources.list.d/backports.list
+
+7.  sudo apt update 
+
+8.  sudo apt install python3-pip -y
+
+9.  pip install reportlab==3.6.11
