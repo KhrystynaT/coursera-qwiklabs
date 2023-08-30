@@ -1,0 +1,8 @@
+connect
+1. cd /data/feedback
+2. ls
+3.cd ~
+4. nano run.py
+5. script
+6.chmod +x ~/run.py
+7. ./run.py
