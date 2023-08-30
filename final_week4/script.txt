@@ -1,0 +1,10 @@
+Automate updating catalog information
+1.connect
+2. sudo chmod +x ~/download_drive_file.sh
+./download_drive_file.sh 1LePo57dJcgzoK4uiI_48S01Etck7w_5f supplier-data.tar.gz
+3. tar xf ~/supplier-data.tar.gz
+4.
+nano ~/changeImage.py
+5. sudo chmod +x ~/changeImage.py
+6. ./changeImage.py
+file ~/supplier-data/images/003.jpeg
