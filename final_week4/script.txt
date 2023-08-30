@@ -8,3 +8,15 @@ nano ~/changeImage.py
 5. sudo chmod +x ~/changeImage.py
 6. ./changeImage.py
 file ~/supplier-data/images/003.jpeg
+
+
+
+____-
+task 2
+sudo chmod +x ~/example_upload.py
+./example_upload.py
+nano ~/supplier_image_upload.py 
+sudo chmod +x ~/supplier_image_upload.py
+./supplier_image_upload.py
+
+3. Uploading the descriptions
