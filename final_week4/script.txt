@@ -20,3 +20,6 @@ sudo chmod +x ~/supplier_image_upload.py
 ./supplier_image_upload.py
 
 3. Uploading the descriptions
+nano ~/run.py
+sudo chmod +x ~/run.py
+./run.py
