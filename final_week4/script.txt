@@ -23,3 +23,13 @@ sudo chmod +x ~/supplier_image_upload.py
 nano ~/run.py
 sudo chmod +x ~/run.py
 ./run.py
+
+4.Generate a PDF report and send it through email
+
+nano ~/reports.pyß
+
+nano ~/report_email.py
+
+nano ~/emails.py
+sudo chmod +x ~/report_email.py
+./report_email.py
